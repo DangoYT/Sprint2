@@ -16,14 +16,14 @@
         <div>
             <form action="">
                 <label for="nombre">CARDHOLDER NAME</label> <br>
-                <input type="text" name="name" id="nombre" placeholder="Tu nombre"> <br>
+                <input type="text" name="name" id="nombre" placeholder="e.g. Jane Appleseed"> <br>
                 <br>
                 <label for="tarjeta">CARD NUMBER</label> <br>
                 <input type="text" id="tarjeta" name="tarjeta" pattern="[0-9]{13,19}" maxlength="19"
-                    title="Ingrese un número de tarjeta de crédito válido" placeholder="xxxx-xxxx-xxxx-xxxx">
+                    title="Ingrese un número de tarjeta de crédito válido" placeholder="e.g. 1234 5678 9123 0000">
                     <br>
                 <label for="date">EXP. DATE (YY/MM)</label> <br>
-                <input type="number" name="" id="" maxlength="2" size="2" pattern="[0-9]{2}">
+                <input type="number" name="" id="" min="00" max="99">
                 <!-- patter se utiliza para garantizar que los caracteres ingresados sean números.  --><!-- maxlength se utiliza para espeficar el maximo de caracteres -->
 
                 
